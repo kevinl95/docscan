@@ -5,13 +5,16 @@ from urllib.request import urlopen
 
 from flask import Flask, request, send_file
 from waitress import serve
+from flask_cors import CORS, cross_origin
 
 from ..doc import scan
 
 app = Flask(__name__)
+cors = CORS(app)
 
 
 @app.route('/', methods=['GET', 'POST'])
+@cross_origin()
 def index():
     file_content = ''
 

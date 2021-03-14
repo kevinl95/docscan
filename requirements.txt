@@ -4,3 +4,4 @@ imutils==0.5.3
 numpy==1.19.1
 flask==1.1.2
 waitress==1.4.4
+Flask-Cors==3.0.10
