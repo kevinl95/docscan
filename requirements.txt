@@ -1,7 +1,7 @@
 rembg==1.0.16
 opencv-python==4.4.0.42
 imutils==0.5.3
-numpy==1.19.1
+numpy>=1.17.3
 flask==1.1.2
 waitress==1.4.4
 Flask-Cors==3.0.10
